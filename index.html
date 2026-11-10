@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía completa de CMMI - Modelo de madurez y capacidad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <a href="#inicio" class="nav__logo">
+                <img src="assets/images/logo.png" alt="Logo CMMI">
+            </a>
+            <a href="#conceptos" class="nav__link">Contenido</a>
+        </nav>
+        <div class="hero__content" id="inicio">
+            <div class="hero__info">
+                <h1 class="hero__title">Guía completa<br>de CMMI</h1>
+                <p class="hero__text">
+                    Modelo de madurez y capacidad para la mejora de procesos de
+                    software. De la teoría a la práctica en el aseguramiento de la
+                    calidad.
+                </p>
+                <a href="#que-es" class="btn btn--green">Empezar</a>
+            </div>
+            <div class="hero__image">
+                <img src="assets/images/hero.webp" alt="Ilustración de capas de un sistema de software con código, engranajes y flujos">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="protection" id="conceptos">
+            <h2 class="section-title">Conceptos fundamentales</h2>
+            <div class="protection__grid">
+                <article class="protection__item">
+                    <img src="assets/images/icono-proceso..webp" alt="Icono de engranajes">
+                    <h3 class="protection__name">Proceso</h3>
+                    <p class="protection__text">
+                        Conjunto de actividades relacionadas que transforma entradas en
+                        resultados. Ejemplo: revisar una solicitud, desarrollarla,
+                        probarla y aprobarla.
+                    </p>
+                </article>
+                <article class="protection__item">
+                    <img src="assets/images/icono-evidencia.webp" alt="Icono de documento con lupa">
+                    <h3 class="protection__name">Evidencia</h3>
+                    <p class="protection__text">
+                        Información verificable que demuestra qué se hizo y qué
+                        resultado se obtuvo: registros, resultados de pruebas, actas o
+                        repositorios.
+                    </p>
+                </article>
+                <article class="protection__item">
+                    <img src="assets/images/icono-medicion.webp" alt="Icono de gráfico de barras">
+                    <h3 class="protection__name">Medición</h3>
+                    <p class="protection__text">
+                        Dato cuantitativo o cualitativo usado para conocer el
+                        desempeño y apoyar decisiones.
+                    </p>
+                </article>
+            </div>
+            <div class="protection__more">
+                <a href="assets/images/conceptos.webp" target="_blank" rel="noopener" class="btn btn--dark">Ver los nueve conceptos</a>
+            </div>
+        </section>
+
+        <section class="feature feature--inside" id="que-es">
+            <div class="feature__text">
+                <h2 class="feature__title">¿Qué es CMMI?</h2>
+                <p class="feature__paragraph">
+                    CMMI significa Capability Maturity Model Integration. Es un
+                    conjunto de buenas prácticas que ayuda a las organizaciones a
+                    mejorar la manera en que planifican, desarrollan, entregan y
+                    mantienen productos y servicios.
+                </p>
+                <p class="feature__paragraph">
+                    No es un lenguaje de programación, una metodología ni una
+                    herramienta para escribir código: es un modelo de mejora de
+                    procesos.
+                </p>
+                <p class="feature__note">
+                    Idea clave: CMMI no garantiza que un software nunca tendrá
+                    errores. Ayuda a prevenirlos, detectarlos, analizarlos y reducir
+                    su recurrencia.
+                </p>
+            </div>
+            <div class="feature__image">
+                <a href="assets/images/que-es.webp" target="_blank" rel="noopener">
+                    <img src="assets/images/que-es.webp" alt="Capacidad, madurez, modelo e integración: el significado de cada palabra de CMMI">
+                </a>
+            </div>
+        </section>
+
+        <section class="feature feature--green">
+            <div class="feature__image">
+                <a href="assets/images/para-que-sirve.webp" target="_blank" rel="noopener">
+                    <img src="assets/images/para-que-sirve.webp" alt="El caos del desarrollo frente a la estructura que aporta CMMI">
+                </a>
+            </div>
+            <div class="feature__text">
+                <h2 class="feature__title">¿Para qué sirve y por qué importa en software?</h2>
+                <p class="feature__paragraph">
+                    Los equipos enfrentan requisitos incompletos, cambios no
+                    controlados, errores tardíos y retrabajo costoso. CMMI aporta una
+                    estructura para reconocer estas debilidades y mejorar.
+                </p>
+                <ul class="feature__list">
+                    <li>Mejorar la calidad con revisiones, pruebas y seguimiento de defectos.</li>
+                    <li>Predecir y controlar el trabajo: tiempos, recursos y riesgos.</li>
+                    <li>Gestionar requisitos y analizar el impacto de los cambios.</li>
+                    <li>Tomar decisiones con datos.</li>
+                    <li>Aprender como organización y dar confianza a los clientes.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="pricing" id="niveles">
+            <h2 class="section-title">Niveles de madurez</h2>
+            <div class="pricing__grid">
+                <article class="plan">
+                    <h3 class="plan__name">Reactivo</h3>
+                    <p class="plan__price">0-1</p>
+                    <ul class="plan__list">
+                        <li>0 Incompleto: el trabajo no se realiza de forma consistente</li>
+                        <li>1 Inicial: trabajo impredecible que depende de esfuerzos individuales</li>
+                    </ul>
+                    <a href="assets/images/niveles.webp" target="_blank" rel="noopener" class="btn btn--green">Ver esquema</a>
+                </article>
+                <article class="plan plan--featured">
+                    <h3 class="plan__name">Gestionado y definido</h3>
+                    <p class="plan__price">2-3</p>
+                    <ul class="plan__list">
+                        <li>2 Gestionado: los proyectos se planifican, ejecutan, miden y controlan</li>
+                        <li>3 Definido: estándares organizacionales comunes adaptados al proyecto</li>
+                    </ul>
+                    <a href="assets/images/niveles.webp" target="_blank" rel="noopener" class="btn btn--green">Ver esquema</a>
+                </article>
+                <article class="plan">
+                    <h3 class="plan__name">Avanzado</h3>
+                    <p class="plan__price">4-5</p>
+                    <ul class="plan__list">
+                        <li>4 Gestionado cuantitativamente: se controla el desempeño con datos</li>
+                        <li>5 Optimizado: mejora continua y aprendizaje sistemático</li>
+                    </ul>
+                    <a href="assets/images/niveles.webp" target="_blank" rel="noopener" class="btn btn--green">Ver esquema</a>
+                </article>
+            </div>
+            <div class="pricing__figure">
+                <a href="assets/images/niveles.webp" target="_blank" rel="noopener">
+                    <img src="assets/images/niveles.webp" alt="Escalera de niveles de madurez y barra de niveles de capacidad">
+                </a>
+                <p class="pricing__note">
+                    No confundir: los niveles de madurez describen a toda la
+                    organización y llegan hasta el 5; los niveles de capacidad se
+                    aplican a una práctica específica y llegan hasta el 3.
+                </p>
+            </div>
+        </section>
+
+        <section class="feature feature--light">
+            <div class="feature__text">
+                <h2 class="feature__title">CMMI en el ciclo de vida del software</h2>
+                <p class="feature__paragraph">
+                    CMMI no impone cascada ni Scrum: busca que las actividades se
+                    realicen de forma controlada y con resultados verificables.
+                </p>
+                <ol class="feature__list feature__list--numbered">
+                    <li>Comprender la necesidad</li>
+                    <li>Analizar requisitos</li>
+                    <li>Planificar</li>
+                    <li>Diseñar</li>
+                    <li>Construir</li>
+                    <li>Verificar y validar</li>
+                    <li>Liberar</li>
+                    <li>Mantener y mejorar</li>
+                </ol>
+                <p class="feature__note">
+                    Trazabilidad: requisito R-05, módulo de préstamos, caso de
+                    prueba CP-05 y resultado aprobado.
+                </p>
+            </div>
+            <div class="feature__image">
+                <a href="assets/images/ciclo-de-vida.webp" target="_blank" rel="noopener">
+                    <img src="assets/images/ciclo-de-vida.webp" alt="Ciclo de vida del software y el hilo de trazabilidad">
+                </a>
+            </div>
+        </section>
+
+        <section class="feature feature--green">
+            <div class="feature__image">
+                <a href="assets/images/qa-verificacion.webp" target="_blank" rel="noopener">
+                    <img src="assets/images/qa-verificacion.webp" alt="QA, QC, verificación y validación, tipos de pruebas y registro de prueba">
+                </a>
+            </div>
+            <div class="feature__text">
+                <h2 class="feature__title">Aseguramiento de la calidad y verificación</h2>
+                <p class="feature__paragraph">
+                    La calidad no se logra solo probando al final: se construye
+                    durante todo el proceso.
+                </p>
+                <ul class="feature__list">
+                    <li><strong>QA:</strong> ¿estamos usando procesos adecuados para producir calidad?</li>
+                    <li><strong>QC:</strong> ¿el producto o entregable presenta defectos?</li>
+                    <li><strong>Verificación:</strong> ¿el producto cumple las especificaciones?</li>
+                    <li><strong>Validación:</strong> ¿la solución satisface la necesidad real del usuario?</li>
+                </ul>
+                <p class="feature__note">
+                    Pruebas unitarias, de integración, de sistema, de aceptación y de
+                    regresión. Decir "ya lo revisé y funciona" no es evidencia.
+                </p>
+            </div>
+        </section>
+
+        <section class="feature feature--light">
+            <div class="feature__text">
+                <h2 class="feature__title">Prácticas de trabajo alineadas con CMMI</h2>
+                <p class="feature__paragraph">
+                    Cada área de trabajo aporta una práctica concreta al día a día
+                    del equipo de software.
+                </p>
+                <ul class="feature__list">
+                    <li>Gestión de requisitos y planificación</li>
+                    <li>Gestión de riesgos y de configuración</li>
+                    <li>Aseguramiento de calidad y medición</li>
+                    <li>Gestión de proveedores y análisis de causas</li>
+                    <li>Mejora continua</li>
+                </ul>
+                <p class="feature__note">
+                    CMMI no debe convertirse en burocracia: la documentación debe
+                    aportar valor, reducir riesgo o mejorar la calidad.
+                </p>
+            </div>
+            <div class="feature__image">
+                <a href="assets/images/practicas.webp" target="_blank" rel="noopener">
+                    <img src="assets/images/practicas.webp" alt="Tabla de prácticas CMMI y su aplicación en el desarrollo diario">
+                </a>
+            </div>
+        </section>
+
+        <section class="feature feature--green">
+            <div class="feature__image">
+                <a href="assets/images/ejemplo-prestamos.webp" target="_blank" rel="noopener">
+                    <img src="assets/images/ejemplo-prestamos.webp" alt="De hojas de cálculo sueltas a un flujo con requisito, código y prueba">
+                </a>
+            </div>
+ 
+</body>
+</html>
